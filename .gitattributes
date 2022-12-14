@@ -2,6 +2,7 @@
 
 #CREATE A CAR CLASS
 class Car {
+#Define attributes
 	public String brand;
 	public String model;
 	public int amountOfFuel;
