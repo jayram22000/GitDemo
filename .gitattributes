@@ -1,2 +1,28 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+
+
+#CREATE A CAR CLASS
+class Car {
+	public String brand;
+	public String model;
+	public int amountOfFuel;
+	public void brake()
+	{
+		System.out.println("Car is breaking");
+	}
+	public void accelerate()
+	{
+		if(amountOfFuel>0)
+		{
+			System.out.println("Car is accelerating");
+		}
+		amountOfFuel--;
+	}
+	public void printData()
+	{
+		System.out.println("Brand: "+brand);
+		System.out.println("Model: "+model);
+		System.out.println("Fuel: "+amountOfFuel);
+	}
+
+}
+
